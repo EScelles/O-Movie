@@ -1,5 +1,12 @@
 import React, { Component } from "react";
-import Style from "./MovieElement.module.scss";
+
+const style = {
+  width: "480px",
+  height: "280px",
+  overflow: "hidden",
+  margin: "0px 5px 10px 5px",
+  cursor: "pointer",
+};
 export default class MovieElement extends Component {
   mouseEnter = () => {
     this.props.updateSelectedMovie(this.props.movie.title);
@@ -9,7 +16,8 @@ export default class MovieElement extends Component {
     return (
       <div
         onMouseEnter={this.mouseEnter}
-        className={"border d-flex flex-row" + Style.container}
+        className={"d-flex flex-row bg-light "}
+        style={style}
       >
         <img alt="film" width="185" src={this.props.movie.img} />
         <div className="flex-fill d-flex flex-column p-3">
