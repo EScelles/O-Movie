@@ -17,7 +17,7 @@ export default class Header extends Component {
                 Home
               </a>
             </li>
-            <li className="nav-item-active">
+            <li className="nav-item active">
               <a className="nav-link" href="/">
                 Favoris
               </a>

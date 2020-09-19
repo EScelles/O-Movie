@@ -8,7 +8,7 @@ export default class MovieDetails extends Component {
         <hr className="w-100" />
         <div>
           <img
-            alt="movie"
+            alt="film"
             className="d-block mx-auto w-100"
             src={this.props.movie.img}
           />
