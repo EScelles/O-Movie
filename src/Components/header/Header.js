@@ -6,7 +6,7 @@ export default class Header extends Component {
     return (
       <header className="navbar navbar-expand-lg navbar-light bg-light">
         <a className="navbar-brand" href="/">
-          O'Movie
+          Wiki'Movie
         </a>
         <div className="navbar navbar-expand">
           <ul className="navbar-nav ml-auto">
