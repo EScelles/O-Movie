@@ -9,4 +9,4 @@ export default () => {
       <img alt="loading gif" src="https://i.redd.it/ounq1mw5kdxy.gif" />
     </div>
   );
-};
+}
